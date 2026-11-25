@@ -4,7 +4,7 @@
  */
 (() => {
   const LP_CONFIG = {
-    BRAND_NAME: "SPORT365",
+    BRAND_NAME: "MEGABR",
     // Replace with your destination / tracking / WhatsApp / registration URL
     CTA_URL: "https://megatci1.megapari-035012.com/",
     // Set true to forward PPC query parameters (gclid, fbclid, utm_*, etc.) to CTA links
@@ -17,8 +17,8 @@
     node.textContent = LP_CONFIG.BRAND_NAME;
   }
 
-  if (LP_CONFIG.BRAND_NAME && LP_CONFIG.BRAND_NAME !== "SPORT365") {
-    document.title = document.title.replace("SPORT365", LP_CONFIG.BRAND_NAME);
+  if (LP_CONFIG.BRAND_NAME && LP_CONFIG.BRAND_NAME !== "MEGABR") {
+    document.title = document.title.replace("MEGABR", LP_CONFIG.BRAND_NAME);
   }
 
   const ctaNodes = document.querySelectorAll("[data-cta-link]");
