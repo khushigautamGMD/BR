@@ -6,7 +6,7 @@
   const LP_CONFIG = {
     BRAND_NAME: "SPORT365",
     // Replace with your destination / tracking / WhatsApp / registration URL
-    CTA_URL: "https://example.com/register",
+    CTA_URL: "https://megatci1.megapari-035012.com/",
     // Set true to forward PPC query parameters (gclid, fbclid, utm_*, etc.) to CTA links
     FORWARD_QUERY_PARAMS: true,
     OPEN_IN_NEW_TAB: false
